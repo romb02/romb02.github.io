@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Oswald|PT+Serif&display=swap');
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+a.btn, button {
+  font-family: 'Alatis', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+li {
+  font-family: 'Alatis', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+p {
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+body {
+  background-color: #d5e3d9;
+}
+header, footer {
+  background-color: #ff383b;
+}
+/* Navbar */
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+nav {
+  background-color: #A61216	;
+}
+
+
+a.page-link {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+/* active, hover */
+
+li.page-item.active .page-link, a.page-link:active, a.page-link:hover {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+}
+
+/* disabled */
+
+li.page-item.disabled .page-link {
+  border: 1px solid #e6979e;
+  color: #e6979e;
+}
+
+/* focus */
+
+li.page-item.focus .page-link, a.page-link:focus {
+  box-shadow: 0 0 0 0.1rem rgba(220, 53, 69, .5);
+}
+.carousel a:hover {
+background: rgba(255, 255, 255, 0.2);
+}
